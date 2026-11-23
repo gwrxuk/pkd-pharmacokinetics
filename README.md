@@ -1,4 +1,4 @@
-# PKD — 藥物動力學 (Pharmacokinetics) + Drug-Repurposing Research Tool (C++17)
+# PKD — Pharmacokinetics + Drug-Repurposing Research Tool (C++17)
 
 > **Research / education only. Not clinical advice.** Outputs are computational hypotheses.
 

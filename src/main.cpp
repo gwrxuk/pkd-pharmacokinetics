@@ -1,4 +1,4 @@
-// pkd - pharmacokinetics (藥物動力學) + drug-repurposing research tool.
+// pkd - pharmacokinetics + drug-repurposing research tool.
 // Research / educational use only. Not clinical advice.
 #include <algorithm>
 #include <cmath>
