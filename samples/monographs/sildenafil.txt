@@ -1,0 +1,24 @@
+SAMPLE MONOGRAPH FOR RESEARCH TESTING - approximate values, not a real product label
+Drug Name: Sildenafil Citrate
+Drug Class: Phosphodiesterase inhibitor
+Molecular Weight: 474.6 g/mol (free base)
+
+Indications and Usage:
+Sildenafil tablets are indicated for the treatment of erectile dysfunction.
+
+Dosage and Administration:
+Recommended dose: 50 mg orally, taken as needed approximately once daily.
+
+Mechanism of Action:
+Sildenafil enhances the effect of nitric oxide by inhibiting cyclic guanosine monophosphate
+(cGMP)-specific phosphodiesterase type 5 (PDE5), which is responsible for degradation of cGMP
+in the corpus cavernosum.
+
+Clinical Pharmacology - Pharmacokinetics:
+Absolute bioavailability: approximately 41%
+Time to peak (Tmax): 1 hour (fasted)
+Peak plasma concentration (Cmax): approximately 200 ng/mL after a 50 mg dose
+Volume of distribution (Vss): 105 L
+Total body clearance: 41 L/h
+Terminal half-life: approximately 4 hours
+Plasma protein binding: 96%

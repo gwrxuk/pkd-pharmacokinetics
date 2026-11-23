@@ -1,0 +1,22 @@
+SAMPLE MONOGRAPH FOR RESEARCH TESTING - approximate values, not a real product label
+Drug Name: Rosuvastatin Calcium
+Molecular Weight: 481.5 g/mol (free acid)
+
+Indications and Usage:
+Rosuvastatin is indicated as an adjunct to diet to reduce elevated LDL-C in adults with primary
+hyperlipidemia.
+
+Dosage and Administration:
+Usual dose: 20 mg orally once daily.
+
+Mechanism of Action:
+Rosuvastatin is a selective and competitive inhibitor of HMG-CoA reductase, the rate-limiting
+enzyme that converts 3-hydroxy-3-methylglutaryl coenzyme A to mevalonate, a precursor of
+cholesterol.
+
+Pharmacokinetics:
+Absolute bioavailability: approximately 20%
+Time to peak: 3 to 5 hours
+Volume of distribution: approximately 134 L
+Elimination half-life: approximately 19 hours
+Protein binding: approximately 88%

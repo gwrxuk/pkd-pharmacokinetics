@@ -1,0 +1,6 @@
+build/
+*.o
+*.pdf
+!samples/pdfs/*.pdf
+.DS_Store
+node_modules/

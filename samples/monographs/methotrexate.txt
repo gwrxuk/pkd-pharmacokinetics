@@ -1,0 +1,19 @@
+SAMPLE MONOGRAPH FOR RESEARCH TESTING - approximate values, not a real product label
+Drug Name: Methotrexate
+Molecular Weight: 454.4 g/mol
+
+Indications and Usage:
+Methotrexate is indicated for the maintenance therapy of acute lymphoblastic leukemia.
+
+Dosage: 15 mg orally once weekly.
+
+Mechanism of Action:
+Methotrexate competitively inhibits dihydrofolic acid reductase, the enzyme that reduces folic
+acid to tetrahydrofolic acid, thereby interfering with DNA synthesis and cell replication.
+
+Pharmacokinetics:
+Oral bioavailability: approximately 60% at doses of 30 mg/m2 or less
+Time to peak: 1 to 2 hours
+Volume of distribution: 0.4 to 0.8 L/kg
+Terminal half-life: 3 to 10 hours
+Protein binding: approximately 50%

@@ -1,0 +1,36 @@
+# Disease -> target hypotheses. targets = SYMBOL:direction_a_treatment_should_push:weight(0..1)
+# direction: down = inhibit/antagonise is therapeutic, up = activate/agonise is therapeutic.
+# Weights are coarse expert-style evidence scores for teaching; replace with an external
+# association source (e.g. Open Targets) for independent validation.
+key,area,synonyms,targets,pathways
+type_2_diabetes,metabolic,type 2 diabetes|type 2 diabetes mellitus|type II diabetes|non-insulin-dependent diabetes,PRKAA1:up:0.8;PPARG:up:0.8;DPP4:down:0.8;GLP1R:up:0.9;SLC5A2:down:0.8,AMPK_signaling;insulin_signaling;glucose_homeostasis;incretin_signaling
+polycystic_ovary_syndrome,endocrine,polycystic ovary syndrome|PCOS,PRKAA1:up:0.6;INSR:up:0.5;AR:down:0.6,insulin_signaling;AMPK_signaling;steroid_hormone
+hypercholesterolemia,metabolic,hypercholesterolemia|hyperlipidemia|dyslipidemia|elevated LDL,HMGCR:down:0.95;PCSK9:down:0.9;NPC1L1:down:0.8,cholesterol_biosynthesis;lipid_metabolism
+coronary_artery_disease,cardiovascular,coronary artery disease|coronary heart disease|atherosclerotic cardiovascular disease|cardiovascular risk reduction,HMGCR:down:0.8;PTGS1:down:0.6;P2RY12:down:0.7;ADRB1:down:0.6;CACNA1C:down:0.5,cholesterol_biosynthesis;platelet_activation;adrenergic_signaling
+hypertension,cardiovascular,hypertension|high blood pressure,AGTR1:down:0.9;ACE:down:0.9;CACNA1C:down:0.85;ADRB1:down:0.7;SLC12A3:down:0.7,renin_angiotensin;calcium_signaling;adrenergic_signaling;vascular_tone
+angina_pectoris,cardiovascular,angina pectoris|angina,ADRB1:down:0.8;CACNA1C:down:0.8;GUCY1A1:up:0.7,adrenergic_signaling;calcium_signaling;NO_cGMP;vascular_tone
+heart_failure,cardiovascular,heart failure,AGTR1:down:0.8;ACE:down:0.8;ADRB1:down:0.7;NR3C2:down:0.7;SLC5A2:down:0.6,renin_angiotensin;adrenergic_signaling
+atrial_fibrillation,cardiovascular,atrial fibrillation,VKORC1:down:0.8;F10:down:0.8;F2:down:0.8;ADRB1:down:0.6;KCNH2:down:0.5,coagulation_cascade;adrenergic_signaling;cardiac_conduction
+deep_vein_thrombosis,hematology,deep vein thrombosis|venous thromboembolism|pulmonary embolism,VKORC1:down:0.85;F10:down:0.85;F2:down:0.85,coagulation_cascade
+asthma,respiratory,asthma,ADRB2:up:0.9;PDE4B:down:0.6;CYSLTR1:down:0.7;ADORA1:down:0.4;IL5:down:0.6,cAMP_signaling;airway_inflammation;bronchial_smooth_muscle
+copd,respiratory,chronic obstructive pulmonary disease|COPD,ADRB2:up:0.8;CHRM3:down:0.8;PDE4B:down:0.7,cAMP_signaling;airway_inflammation;bronchial_smooth_muscle
+erectile_dysfunction,urology,erectile dysfunction|impotence,PDE5A:down:0.95;GUCY1A1:up:0.5,NO_cGMP;vascular_tone
+pulmonary_arterial_hypertension,cardiopulmonary,pulmonary arterial hypertension|PAH,PDE5A:down:0.85;EDNRA:down:0.85;PTGIR:up:0.8;GUCY1A1:up:0.8,NO_cGMP;endothelin;vascular_tone
+benign_prostatic_hyperplasia,urology,benign prostatic hyperplasia|BPH,SRD5A2:down:0.85;ADRA1A:down:0.85;PDE5A:down:0.5,steroid_hormone;NO_cGMP
+migraine_prophylaxis,neurology,migraine,ADRB1:down:0.6;CALCA:down:0.85;CALCRL:down:0.8,adrenergic_signaling;neurovascular
+essential_tremor,neurology,essential tremor,ADRB2:down:0.6;ADRB1:down:0.4;GABRA1:up:0.5,adrenergic_signaling;GABA_signaling
+infantile_hemangioma,dermatology,infantile hemangioma|hemangioma,ADRB2:down:0.6;ADRB1:down:0.4;KDR:down:0.6,adrenergic_signaling;angiogenesis
+glaucoma,ophthalmology,glaucoma|ocular hypertension,ADRB2:down:0.6;ADRB1:down:0.3;PTGFR:up:0.85;CA2:down:0.75,aqueous_humor_dynamics;adrenergic_signaling
+bacterial_pneumonia,infection,pneumonia|lower respiratory tract infection,BACT_PBP:down:0.9;BACT_GYRA:down:0.8;BACT_RIBO50S:down:0.8,bacterial_cell_wall;bacterial_replication;bacterial_protein_synthesis
+otitis_media,infection,otitis media,BACT_PBP:down:0.9;BACT_RIBO50S:down:0.6,bacterial_cell_wall;bacterial_protein_synthesis
+osteoarthritis_pain,musculoskeletal,osteoarthritis,PTGS2:down:0.85;PTGS1:down:0.6;TRPV1:down:0.5;NGF:down:0.5,prostaglandin_synthesis;nociception;inflammation_signaling
+rheumatoid_arthritis,immunology,rheumatoid arthritis,TNF:down:0.9;JAK1:down:0.85;IL6R:down:0.8;DHFR:down:0.75;PTGS2:down:0.5,cytokine_signaling;folate_metabolism;prostaglandin_synthesis;inflammation_signaling
+psoriasis,immunology,psoriasis,TNF:down:0.8;IL17A:down:0.9;IL23A:down:0.85;DHFR:down:0.6,cytokine_signaling;folate_metabolism;cell_proliferation
+fever,symptom,fever|pyrexia,PTGS2:down:0.8;PTGS1:down:0.5,prostaglandin_synthesis
+gout,musculoskeletal,gout|hyperuricemia,XDH:down:0.9;IL1B:down:0.6;PTGS2:down:0.4,purine_metabolism;inflammation_signaling
+familial_adenomatous_polyposis,oncology,familial adenomatous polyposis,PTGS2:down:0.6,prostaglandin_synthesis;cell_proliferation
+acute_lymphoblastic_leukemia,oncology,acute lymphoblastic leukemia,DHFR:down:0.8;ABL1:down:0.6,folate_metabolism;cell_proliferation
+epilepsy,neurology,epilepsy|partial-onset seizures|seizures,SCN1A:down:0.8;CACNA2D1:down:0.7;GABRA1:up:0.8;SV2A:down:0.8,neuronal_excitability;GABA_signaling
+neuropathic_pain,neurology,neuropathic pain|postherpetic neuralgia,CACNA2D1:down:0.85;SCN9A:down:0.7;SLC6A4:down:0.5;SLC6A2:down:0.5,neuronal_excitability;nociception
+diabetic_nephropathy,renal,diabetic nephropathy,AGTR1:down:0.85;ACE:down:0.85;SLC5A2:down:0.7,renin_angiotensin;renal_sodium_handling
+depression,psychiatry,major depressive disorder|depression,SLC6A4:down:0.85;SLC6A2:down:0.6;HTR1A:up:0.5,monoamine_signaling

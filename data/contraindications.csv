@@ -1,0 +1,4 @@
+# Known drug-disease contraindications used as a safety-detection check.
+drug,disease,reason
+Propranolol,asthma,nonselective beta-blockade can precipitate bronchospasm
+Propranolol,copd,beta-2 blockade may worsen bronchospasm (relative)

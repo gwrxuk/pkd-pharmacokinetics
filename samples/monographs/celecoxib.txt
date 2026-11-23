@@ -1,0 +1,22 @@
+SAMPLE MONOGRAPH FOR RESEARCH TESTING - approximate values, not a real product label
+Drug Name: Celecoxib
+Molecular Weight: 381.4 g/mol
+
+Indications and Usage:
+Celecoxib capsules are indicated for relief of the signs and symptoms of osteoarthritis and of
+rheumatoid arthritis in adults.
+
+Dosage and Administration:
+Usual dose: 200 mg orally once daily.
+
+Mechanism of Action:
+Celecoxib is a nonsteroidal anti-inflammatory drug that selectively inhibits cyclooxygenase-2
+(COX-2), reducing the synthesis of prostaglandins.
+
+Pharmacokinetics:
+Peak plasma concentration (Cmax): approximately 705 ng/mL after a single 200 mg dose
+Time to peak: approximately 3 hours
+Apparent volume of distribution (Vss/F): approximately 400 L
+Apparent clearance (CL/F): approximately 500 mL/min
+Effective half-life: approximately 11 hours
+Protein binding: approximately 97%

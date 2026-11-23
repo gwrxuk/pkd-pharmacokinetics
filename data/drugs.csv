@@ -1,0 +1,19 @@
+# Curated reference drugs. APPROXIMATE values compiled from public labels / PK textbooks for
+# research & teaching; verify against primary sources before any real use.
+# Units: dose mg, tau h, ka 1/h, CL L/h, V L, ceff (effective plasma conc.) mg/L, Cmax mg/L, Tmax h, AUC mg*h/L
+# targets = SYMBOL:action;...   indications = disease keys from diseases.csv
+name,mw,dose_mg,route,tau_h,F,ka_h,CL_L_h,V_L,fu,ceff_mg_L,targets,indications,obs_cmax_mg_L,obs_tmax_h,obs_auc_mg_h_L
+Metformin,129.2,500,oral,12,0.55,0.8,36,320,1.0,0.5,PRKAA1:activator;MT_COMPLEX_I:inhibitor,type_2_diabetes;polycystic_ovary_syndrome,1.0,2.5,7.6
+Warfarin,308.3,5,oral,24,0.95,1.5,0.2,10,0.01,1.0,VKORC1:inhibitor,atrial_fibrillation;deep_vein_thrombosis,0.45,4,
+Amoxicillin,365.4,500,oral,8,0.9,1.2,21,30,0.8,2.0,BACT_PBP:inhibitor,bacterial_pneumonia;otitis_media,7.0,1.5,20
+Atorvastatin,558.6,40,oral,24,0.14,2.0,37.5,381,0.02,0.003,HMGCR:inhibitor,hypercholesterolemia;coronary_artery_disease,0.020,1.5,
+Theophylline,180.2,300,oral,12,1.0,1.5,2.8,35,0.6,10,PDE4B:inhibitor;PDE3A:inhibitor;ADORA1:antagonist,asthma;copd,7.5,1.5,
+Propranolol,259.3,40,oral,12,0.26,1.0,60,280,0.1,0.02,ADRB1:antagonist;ADRB2:antagonist,hypertension;angina_pectoris;migraine_prophylaxis;essential_tremor;infantile_hemangioma,0.035,1.5,
+Sildenafil,474.6,50,oral,24,0.41,2.5,41,105,0.04,0.05,PDE5A:inhibitor,erectile_dysfunction;pulmonary_arterial_hypertension,0.2,1.0,
+Tadalafil,389.4,20,oral,24,1.0,1.5,2.5,63,0.06,0.1,PDE5A:inhibitor,erectile_dysfunction;pulmonary_arterial_hypertension;benign_prostatic_hyperplasia,0.378,2.0,8.1
+Ibuprofen,206.3,400,oral,8,1.0,2.0,3.5,10,0.01,10,PTGS1:inhibitor;PTGS2:inhibitor,osteoarthritis_pain;fever;rheumatoid_arthritis,31,1.5,110
+Amlodipine,408.9,10,oral,24,0.64,0.35,25,1500,0.03,0.005,CACNA1C:blocker,hypertension;angina_pectoris;coronary_artery_disease,0.006,8,
+Gabapentin,171.2,300,oral,8,0.6,0.6,7.2,58,0.97,2.0,CACNA2D1:ligand,epilepsy;neuropathic_pain,2.7,3,
+Losartan,422.9,50,oral,24,0.33,3.0,36,34,0.013,0.02,AGTR1:antagonist,hypertension;diabetic_nephropathy,0.25,1.0,
+Methotrexate,454.4,15,oral,168,0.7,1.0,7,40,0.5,0.01,DHFR:inhibitor,acute_lymphoblastic_leukemia;rheumatoid_arthritis;psoriasis,,1.5,
+Sertraline,306.2,50,oral,24,0.44,0.25,37,1400,0.02,0.01,SLC6A4:inhibitor,depression,,6,

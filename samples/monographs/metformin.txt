@@ -1,0 +1,23 @@
+SAMPLE MONOGRAPH FOR RESEARCH TESTING - approximate values, not a real product label
+Drug Name: Metformin Hydrochloride
+Molecular Weight: 165.6 g/mol (hydrochloride salt)
+
+Indications and Usage:
+Metformin is indicated as an adjunct to diet and exercise to improve glycemic control in adults
+with type 2 diabetes mellitus.
+
+Dosage and Administration:
+Starting dose: 500 mg orally twice daily with meals.
+
+Mechanism of Action:
+Metformin decreases hepatic glucose production and improves insulin sensitivity. At the cellular
+level it activates AMP-activated protein kinase (AMPK), in part through inhibition of the
+mitochondrial respiratory chain complex I.
+
+Pharmacokinetics:
+Absolute bioavailability: 50 to 60% (fasting)
+Peak plasma concentration (Cmax): approximately 1.0 mcg/mL after a 500 mg dose
+Time to peak: 2 to 3 hours
+Total clearance: approximately 600 mL/min
+Plasma elimination half-life: approximately 6.2 hours
+Protein binding: negligible

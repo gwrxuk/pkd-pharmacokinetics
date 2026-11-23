@@ -1,0 +1,24 @@
+SAMPLE MONOGRAPH FOR RESEARCH TESTING - approximate values, not a real product label
+Drug Name: Propranolol Hydrochloride
+Molecular Weight: 295.8 g/mol
+
+Indications and Usage:
+Propranolol is indicated for the management of hypertension and for long-term management of
+angina pectoris due to coronary atherosclerosis.
+
+Dosage and Administration:
+Usual dose: 40 mg orally twice daily.
+
+Mechanism of Action:
+Propranolol is a nonselective beta-adrenergic receptor blocking agent. It competitively blocks
+both beta-1 and beta-2 adrenergic receptors, reducing heart rate, myocardial contractility and
+renin release.
+
+Pharmacokinetics:
+Bioavailability: approximately 25% due to extensive first-pass metabolism
+Peak plasma concentration (Cmax): about 35 ng/mL after a 40 mg oral dose
+Time to peak: 1 to 2 hours
+Volume of distribution: approximately 4 L/kg
+Clearance: approximately 1 L/min
+Elimination half-life: 3 to 5 hours
+Protein binding: approximately 90%

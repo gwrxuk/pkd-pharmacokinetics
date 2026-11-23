@@ -1,0 +1,67 @@
+# Molecular targets: gene symbol, text-mining synonyms (| separated, matched case-insensitively on word
+# boundaries inside "Mechanism of Action"), and coarse pathway tags (; separated).
+symbol,synonyms,pathways
+PRKAA1,AMP-activated protein kinase|AMPK,AMPK_signaling;glucose_homeostasis
+MT_COMPLEX_I,respiratory chain complex I|mitochondrial complex I,mitochondrial_respiration;AMPK_signaling
+PPARG,PPAR-gamma|peroxisome proliferator-activated receptor gamma,insulin_signaling;lipid_metabolism
+DPP4,dipeptidyl peptidase-4|DPP-4,incretin_signaling;glucose_homeostasis
+GLP1R,GLP-1 receptor|glucagon-like peptide-1 receptor,incretin_signaling;glucose_homeostasis
+SLC5A2,SGLT2|sodium-glucose cotransporter 2,glucose_homeostasis;renal_sodium_handling
+INSR,insulin receptor,insulin_signaling
+AR,androgen receptor,steroid_hormone
+HMGCR,HMG-CoA reductase|3-hydroxy-3-methylglutaryl coenzyme A reductase|3-hydroxy-3-methylglutaryl-coenzyme A reductase,cholesterol_biosynthesis;lipid_metabolism
+PCSK9,proprotein convertase subtilisin/kexin type 9,lipid_metabolism
+NPC1L1,Niemann-Pick C1-Like 1,lipid_metabolism
+PTGS1,cyclooxygenase-1|COX-1|prostaglandin H synthase-1,prostaglandin_synthesis;platelet_activation
+PTGS2,cyclooxygenase-2|COX-2,prostaglandin_synthesis;inflammation_signaling
+P2RY12,P2Y12,platelet_activation
+ADRB1,beta-1 adrenergic|beta1-adrenergic|beta-1|beta1 receptor|nonselective beta-adrenergic|non-selective beta-adrenergic,adrenergic_signaling;cardiac_contractility
+ADRB2,beta-2 adrenergic|beta2-adrenergic|beta-2|nonselective beta-adrenergic|non-selective beta-adrenergic,adrenergic_signaling;cAMP_signaling;bronchial_smooth_muscle
+CACNA1C,L-type calcium channel|L-type calcium channels|Cav1.2,calcium_signaling;vascular_tone;cardiac_contractility
+AGTR1,angiotensin II type 1|AT1 receptor|angiotensin II receptor type 1,renin_angiotensin;vascular_tone
+ACE,angiotensin-converting enzyme,renin_angiotensin
+SLC12A3,thiazide-sensitive sodium-chloride cotransporter|sodium-chloride cotransporter,renal_sodium_handling
+NR3C2,mineralocorticoid receptor,renin_angiotensin;renal_sodium_handling
+VKORC1,vitamin K epoxide reductase|VKOR,coagulation_cascade
+F10,factor Xa,coagulation_cascade
+F2,thrombin,coagulation_cascade
+KCNH2,hERG|potassium channel Kv11.1,cardiac_conduction
+PDE4B,phosphodiesterase-4|phosphodiesterase type 4|PDE4|nonselective phosphodiesterase,cAMP_signaling;airway_inflammation
+PDE3A,phosphodiesterase-3|phosphodiesterase type 3|PDE3|nonselective phosphodiesterase,cAMP_signaling;cardiac_contractility
+ADORA1,adenosine A1 receptor|adenosine receptor|adenosine receptors,adenosine_signaling;bronchial_smooth_muscle
+CYSLTR1,cysteinyl leukotriene receptor 1|CysLT1,airway_inflammation
+IL5,interleukin-5,airway_inflammation
+CHRM3,muscarinic M3|M3 muscarinic,bronchial_smooth_muscle
+PDE5A,phosphodiesterase type 5|phosphodiesterase-5|phosphodiesterase 5|PDE5|PDE-5,NO_cGMP;vascular_tone
+GUCY1A1,soluble guanylate cyclase|sGC,NO_cGMP
+EDNRA,endothelin receptor type A|endothelin receptor,endothelin;vascular_tone
+PTGIR,prostacyclin receptor|IP receptor,vascular_tone
+SRD5A2,5-alpha reductase|5-alpha-reductase,steroid_hormone
+ADRA1A,alpha-1A adrenergic|alpha1-adrenergic,adrenergic_signaling
+CALCA,calcitonin gene-related peptide|CGRP,neurovascular
+CALCRL,CGRP receptor,neurovascular
+GABRA1,GABA-A receptor|GABAA receptor,GABA_signaling;neuronal_excitability
+KDR,VEGFR2|VEGF receptor 2,angiogenesis
+BACT_PBP,penicillin-binding protein|penicillin-binding proteins|PBP,bacterial_cell_wall
+BACT_GYRA,DNA gyrase|topoisomerase IV,bacterial_replication
+BACT_RIBO50S,50S ribosomal subunit,bacterial_protein_synthesis
+TRPV1,capsaicin receptor,nociception
+NGF,nerve growth factor,nociception
+TNF,tumor necrosis factor|TNF-alpha,cytokine_signaling
+JAK1,Janus kinase 1,cytokine_signaling
+IL6R,interleukin-6 receptor|IL-6 receptor,cytokine_signaling
+DHFR,dihydrofolate reductase|dihydrofolic acid reductase,folate_metabolism;cell_proliferation
+IL17A,interleukin-17A|IL-17A,cytokine_signaling
+IL23A,interleukin-23|IL-23,cytokine_signaling
+SCN1A,sodium channel Nav1.1,neuronal_excitability
+CACNA2D1,alpha2-delta|alpha-2-delta|alpha 2 delta,neuronal_excitability;nociception
+SV2A,synaptic vesicle protein 2A,neuronal_excitability
+SCN9A,Nav1.7,nociception;neuronal_excitability
+SLC6A4,serotonin transporter|serotonin reuptake,monoamine_signaling
+SLC6A2,norepinephrine transporter|norepinephrine reuptake,monoamine_signaling
+HTR1A,5-HT1A,monoamine_signaling
+XDH,xanthine oxidase,purine_metabolism
+IL1B,interleukin-1 beta|IL-1 beta,cytokine_signaling
+ABL1,BCR-ABL|ABL kinase,cell_proliferation
+PTGFR,prostaglandin F receptor|FP receptor,aqueous_humor_dynamics
+CA2,carbonic anhydrase II|carbonic anhydrase,aqueous_humor_dynamics

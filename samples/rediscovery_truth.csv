@@ -1,0 +1,8 @@
+# Retrospective test: PDFs list only the ORIGINAL indication; these are uses established later.
+pdf,later_indications,note
+sildenafil.pdf,pulmonary_arterial_hypertension,ED approval 1998 -> PAH approval 2005
+propranolol.pdf,migraine_prophylaxis;essential_tremor;infantile_hemangioma,hypertension/angina -> migraine & tremor labels; hemangioma 2014
+methotrexate.pdf,rheumatoid_arthritis;psoriasis,leukemia 1950s -> psoriasis 1972 and RA 1988
+metformin.pdf,polycystic_ovary_syndrome,T2D -> PCOS (widely used off-label; not an FDA indication)
+celecoxib.pdf,familial_adenomatous_polyposis,OA/RA 1998 -> FAP 1999 (later withdrawn 2011)
+rosuvastatin.pdf,coronary_artery_disease,hyperlipidemia 2003 -> CV risk reduction 2008
